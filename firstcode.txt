@@ -1,1 +1,20 @@
-Hello world
+okay now im going to tell you how to do like everything or what i actually did step by step
+git guide
+
+git status : but i didnt have any repo at first
+go to your online git acc. click "+" icon make a new public/private repo.
+then "set up in your desktop" click on it
+it will open your desktop git app. make your dir and create your LOCAL REPOSITORY as well.
+
+after doing that your ONLINE and LOCAL REPO are connected.
+
+
+then through git you can open your repo directory in vscode.
+create any file.
+then git status to look if theres any untracked(meaning in your working directory) or modified.
+they must be in red.
+
+to stage that do : git add name_including_extension
+to commit do : git commit -m "a_message"
+
+to push into your ONLINE REPO use the git app
