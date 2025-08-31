@@ -15,7 +15,21 @@ then git status to look if theres any untracked(meaning in your working director
 they must be in red.
 
 to stage that do : git add name_including_extension
-to commit do : git commit -m "a_message"
+to commit do : 
+    git commit -m "a_message"
 
 to push into your ONLINE REPO do:
-git push -u origin main
+    git push -u origin main
+
+
+extra:
+1) if we want we can track it using tag. 
+    git tag -a v1.0 -m "first one" 
+hit enter and your file will get tagged.
+if u do:
+    git tag
+it will show all your version tags. 
+if u wanna know details about a certain TAG do:
+    git show v1.0
+if we need to push a tag do:
+    git push v1.0 origin
