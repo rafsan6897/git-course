@@ -17,4 +17,5 @@ they must be in red.
 to stage that do : git add name_including_extension
 to commit do : git commit -m "a_message"
 
-to push into your ONLINE REPO use the git app
+to push into your ONLINE REPO do:
+git push -u origin main
